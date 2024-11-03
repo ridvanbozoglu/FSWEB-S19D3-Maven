@@ -97,6 +97,7 @@ class MainTest {
         authenticationService = new AuthenticationService(mockMemberRepository, mockRoleRepository, passwordEncoder);
     }
 
+
     @Test
     @DisplayName("Member Setters and Getters")
     void memberSettersAndGetters() {
